@@ -110,7 +110,7 @@ task javadocJar(type: Jar, dependsOn: dokkaJavadoc) {
 publishing {
     publications {
         mavenKotlin(MavenPublication) {
-            groupId 'com.github.evotor'
+            groupId 'com.github.estebalt'
             artifactId "integration-library"
             version "STDEV-13213"
             artifact(sourceJar)
